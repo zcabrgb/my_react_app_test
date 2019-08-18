@@ -1,3 +1,5 @@
+import "../styling/NewsCard.scss";
+
 const NewsCard = props => {
   return (
     <div class="blog-card">
