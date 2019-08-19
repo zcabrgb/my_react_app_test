@@ -48,7 +48,7 @@ class Feed extends Component {
           {counter.map(counter => (
             <li key={news.articles[counter].title}>
               <NewsCard
-                picture={news.articles[counter].picture}
+                picture={news.articles[counter].urlToImage}
                 author={news.articles[counter].author}
                 title={news.articles[counter].title}
                 description={news.articles[counter].description}

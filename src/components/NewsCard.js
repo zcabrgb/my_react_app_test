@@ -5,6 +5,13 @@ const NewsCard = props => {
   return (
     <div className="blog-card">
       <div className="meta">
+        <div className="photo">
+          <img
+            alt="Picture not available"
+            className="photo"
+            src={props.picture}
+          />
+        </div>
         <ul className="details">
           <li className="author">
             <a href="#">{props.author}</a>
